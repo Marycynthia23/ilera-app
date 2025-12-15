@@ -25,7 +25,7 @@
   padding: 10px 32px;
   position: sticky;
   top: 0;
-  z-index: 1001;
+  /* z-index: 1001; */
 }
 
 .header-content {
@@ -112,10 +112,12 @@
 
   .app-header {
     padding: 16px 20px;
+    z-index: 900;
   }
 
   .app-title {
-    font-size: 24px;
+    font-size: 20px;
+    padding-left: 50px;
   }
 
   .profile-details {

@@ -34,7 +34,7 @@ function Signup({ onSignup, onSwitchToLogin }) {
     <div className="auth-container">
       <div className="auth-card">
         <img src={logo} alt="logo" width={200} height={100} className="auth-logo" />
-        <p className="auth-subtitle">Monitor your blood pressure and sugar levels</p>
+        <p className="auth-subtitle">Track your medications and vital signs</p>
         
         <AuthTabs 
           activeTab="signup"
