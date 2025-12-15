@@ -1,0 +1,90 @@
+.medication-list-container {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.empty-message {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+}
+
+.medication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.medication-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.medication-item:hover {
+  background: #e9ecef;
+}
+
+.medication-info {
+  flex: 1;
+}
+
+.medication-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 6px 0;
+}
+
+.medication-details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.medication-separator {
+  color: #999;
+}
+
+.remove-button {
+  padding: 8px 16px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.remove-button:hover {
+  background: #c82333;
+}
+
+.remove-button:active {
+  transform: scale(0.98);
+}
+
+.remove-button-icon {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.remove-button-icon:hover {
+  color: #c82333;
+}
+
+.remove-button-icon:active {
+  transform: scale(0.98);
+}
